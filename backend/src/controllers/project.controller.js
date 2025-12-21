@@ -4,7 +4,7 @@ let mockProjects = [
     name: "First Project",
     description: "This is a sample project",
     published: false,
-    ownerId: 1, // Mock user ID
+    ownerId: 1,
   },
   {
     id: 2,
