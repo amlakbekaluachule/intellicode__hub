@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyApp</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- System font stack for smooth Apple-style typography -->
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #111;
+      background-color: #f9f9f9;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      cursor: default;
+    }
+
+    a {
+      color: #007aff;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    a:hover {
+      color: #0051a8;
+    }
+
+    button, input, textarea {
+      font-family: inherit;
+      outline: none;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button:focus,
+    input:focus,
+    textarea:focus {
+      outline: 2px solid #007aff;
+      outline-offset: 2px;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #555;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div>
+      <h1>Welcome to MyApp</h1>
+      <p>A modern, minimal, Apple-style UI template.</p>
+      <button onclick="alert('Button clicked (mock)')" style="margin-top:1rem; padding:0.5rem 1rem; border-radius:8px; border:1px solid #ddd; background:#fff; box-shadow:0 2px 4px rgba(0,0,0,0.05); cursor:pointer;">Get Started</button>
+    </div>
+  </main>
+</body>
+</html>
