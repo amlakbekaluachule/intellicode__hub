@@ -16,6 +16,6 @@ export const explainCode = async (code) => {
 
   await new Promise((resolve) => setTimeout(resolve, 500)); 
   return {
-    explanation: "This is a mock explanation of the provided code snippet.",
+    explanation: "This is a mock explanation of the provided code snippet.", 
   };
 };
